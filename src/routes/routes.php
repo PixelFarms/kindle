@@ -4,5 +4,5 @@ Route::get('demo', function() {
     return "this is a service provider";
 });
 Route::get('test', function() {
-    return LaravelBase::display();
+    return kindle::display();
 });

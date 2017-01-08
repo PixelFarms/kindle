@@ -1,12 +1,12 @@
 <?php
 
-namespace PixelFarms\LaravelBase\Facades;
+namespace PixelFarms\kindle\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class LaravelBase extends Facade {
+class kindle extends Facade {
 
     protected static function getFacadeAccessor() {
-        return 'pixelfarms-laravelbase';
+        return 'pixelfarms-kindle';
     }
 }

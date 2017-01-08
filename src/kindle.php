@@ -1,8 +1,8 @@
 <?php
 
-namespace PixelFarms\LaravelBase;
+namespace PixelFarms\kindle;
 
-class LaravelBase
+class kindle
 
 {
     public function display() {

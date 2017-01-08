@@ -1,10 +1,10 @@
 <?php
 
-namespace PixelFarms\LaravelBase;
+namespace PixelFarms\kindle;
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelBaseServiceProvider extends ServiceProvider
+class kindleServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap any application services.
@@ -48,8 +48,8 @@ class LaravelBaseServiceProvider extends ServiceProvider
         $this->app->register('Barryvdh\Debugbar\ServiceProvider::class');
         //AliasLoader::getInstance()->alias("Debugbar",'Barryvdh\Debugbar\Facade::class');
 
-        $this->app->bind('pixelfarms-laravelbase', function() {
-            return new LaravelBase();
+        $this->app->bind('pixelfarms-kindle', function() {
+            return new kindle();
         });
     }
 }
