@@ -9,7 +9,7 @@
         "barryvdh/laravel-debugbar": "^2.3",
         "mpociot/teamwork": "^4.1",
         "navjobs/google-geocoder": "^0.1.3",
-        "tehcodedninja/teamroles": "^1.0@alpha"
+        "tehcodedninja/teamroles": "^1.0.3-alpha"
     },
 
     "license": "MIT",
