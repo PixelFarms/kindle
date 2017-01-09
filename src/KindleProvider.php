@@ -19,8 +19,8 @@ class kindleServiceProvider extends ServiceProvider
         //$value = config('courier.option');
 
         $this->publishes([
-        __DIR__.'/path/to/config/courier.php' => config_path('courier.php'),
-    ]);
+            __DIR__.'/kindle-config.php' => config_path('kindle-config.php'),
+        ]);
     }
 
     /**
